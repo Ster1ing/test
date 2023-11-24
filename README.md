@@ -1,2 +1,2 @@
-sudo dnf install git -y
-git --version
+#### sudo dnf install git -y
+#### git --version
