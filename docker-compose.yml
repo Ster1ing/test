@@ -7,15 +7,6 @@ networks:
     name: my-pre-existing-network
     external: true
 
-services:
-  webapp:
-    build: .
-    container_name: webapp
-    ports:
-      - "8080:3000"
-    networks:
-      - network1   
-
   loki:
     image: grafana/loki:2.9.0
     ports:
