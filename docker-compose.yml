@@ -1,6 +1,6 @@
 version: "3"
 
-name: myAppp
+name: myapp
 
 networks:
   network1:
@@ -30,7 +30,7 @@ services:
       - 9091:9090
     restart: unless-stopped
     depends_on:
-    - cadvisorp
+    - cadvisor
     
   loki:
     image: grafana/loki:2.9.0
